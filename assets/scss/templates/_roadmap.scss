@@ -1,0 +1,74 @@
+.org--content-roadmap {
+	margin: $margin--large 0;
+	padding: $padding--large 0;
+	& .rm--item {
+		padding: $padding--small;
+		padding-left: 30px;
+		border-left: 5px solid $color--primary;
+		& .rm--item-inner { 
+			padding: $padding--general;
+			padding-top: $padding--large;
+			padding-left: $padding--large;
+			padding-right: $padding--large;
+			background: $color--white;
+			box-shadow: $box--shadow-light;
+			position: relative;
+			& .rm--marker {
+				display: block;
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				top: 50%;
+				left: -33px;
+				transform: translate(-50%, -50%);
+				z-index: 15;
+			}
+			& .rm--status {
+				display: block;
+				position: absolute; 
+				margin: 7px;
+				width: 50px;
+				height: 50px;
+				top: 0;
+				right: 0;
+				z-index: 20;
+				& i {
+					color: $color--secondary;
+				}
+			}
+			& h2 {
+				font-size: 3rem;
+			}
+			& p {
+				font-family: $brand--font-reg;
+				font-size: 1.2rem;
+				line-height: 1.4;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			& ul {
+				margin-top: $margin--small;
+				margin-bottom: 0;
+				& li {
+					font-family: $brand--font-semi;
+					font-size: 1.1rem;
+					margin-bottom: 4px;
+					&:last-child {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+		
+	}
+}
+
+@media (min-width: $media-desktop) {
+	.org--content-roadmap {
+		& .rm--item {
+			& .rm--item-inner { 
+				padding-right: $padding--xxlarge;
+			}
+		}
+	}
+}

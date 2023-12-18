@@ -1,0 +1,72 @@
+
+// Organisms
+.org--content-default {
+	margin: $margin--large 0;
+	padding: $padding--general 0; 
+}
+
+.org--content-inst {
+	margin: $margin--large 0;
+	padding: $padding--large 0;
+	background-color: $color--inst;
+	color: $color--white;
+	& h2 {
+		color: $color--white;
+	}
+	& a {
+		color: $color--white;
+	}
+}
+
+.org--content-alchemy {
+	margin: $margin--large 0;
+	padding: $padding--large 0;
+	background-color: $color--alchemy;
+	color: $color--white;
+	& h2 {
+		color: $color--white;
+	}
+	& a {
+		color: $color--white;
+	}
+}
+
+.org--content-shop {
+	margin: $margin--large 0;
+	padding: $padding--large 0;
+}
+
+.org--content-newsletter {
+	margin-top: $margin--large;
+	padding: $padding--large 0;
+	background-color: darken($color--primary, 3%);
+	text-align: center;
+	color: $color--white;
+	& h3 {
+		color: $color--white;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	& p {
+
+	}
+}
+
+
+// Molecules
+.mol--content-introduction {
+	padding: $padding--general 0;
+	& h1 {
+		font-size: 6rem;
+		text-align: center;
+	}
+	& p {
+		font-size: 1.6rem;
+		font-family: $brand--font-semi;
+		text-align: center;
+	}
+}
+
+.mol--content-default {}
+.mol--content-alchemy {}
+.mol--content-newsletter {}

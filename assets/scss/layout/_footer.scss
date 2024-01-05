@@ -1,6 +1,5 @@
 footer {
 	background-color: rgba($color--primary,1);
-	padding: $padding--general 0;
 	i {
 		color: $color--white;
 		margin-right: $margin--small;
@@ -27,14 +26,18 @@ footer {
 	}
 }
 
+.org--footer-inner {
+	padding: $padding--general 0;
+}
+
 @media (min-width: $media-mobile) {
-	footer {
+	footer .org--footer-inner {
 		padding: $padding--general*2 0;
 	}
 }
 
 @media (min-width: $media-tablet) {
-	footer {
+	footer .org--footer-inner {
 		padding: $padding--general*3 0;
 	}
 }

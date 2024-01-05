@@ -54,12 +54,11 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="org--content-newsletter" style="background-image: url(<?php the_field('newsletter_texture','option'); ?>); background-repeat: repeat-x;">
-		<div class="container-fluid">
-			<?php get_template_part('template-parts/email-newsletter'); ?>
-		</div>
-	</section>
 
+	<?php get_template_part('template-parts/section-download'); ?>
+
+	<?php get_template_part('template-parts/section-email-newsletter'); ?>
+	
 </section>
 
 <?php get_footer(); ?>

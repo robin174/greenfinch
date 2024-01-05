@@ -10,16 +10,26 @@ a {
 
 @media (min-width: $media-xwide) {
 	.container-fluid {
-		padding: 0 180px;
+		padding: 0 50px;
 	}
 }
 
 @media (min-width: $max-width) {
 	.container-fluid {
 		max-width: $max-width;
+		padding: 0 180px;
 	}
 }
 
 strong {
 	font-family: $brand--font-semi;
+}
+
+/* Code Block Customization */
+/* https://theengineerscafe.com/syntax-highlighting-wordpress-highlightjs */
+pre.wp-block-code {
+	background-color: #FAFAFA;
+	padding: 8px;
+	border-radius: 0px 10px 0px 10px;
+	font-size: 14px;
 }

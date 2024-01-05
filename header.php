@@ -33,6 +33,12 @@
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 		<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/js/splide/css/splide.min.css">
 
+		<!-- Highlight JS (code syntax highlighting)
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+		<script>hljs.highlightAll();</script>
+
 		<!-- Font Awesome
         –––––––––––––––––––––––––––––––––––––––––––––––––– -->
         <script src="https://kit.fontawesome.com/6b4fb8a528.js" crossorigin="anonymous"></script>

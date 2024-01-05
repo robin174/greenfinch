@@ -1,0 +1,19 @@
+.org--content-newsletter {
+	margin-top: $margin--large;
+	padding: 0;
+	background-color: darken($color--primary, 3%);
+	text-align: center;
+	color: $color--white;
+	& h3 {
+		color: $color--white;
+		margin-top: 0;
+		margin-bottom: 5px;
+	}
+	& p {
+
+	}
+	& .org--content-newsletter-inner {
+		margin: 0;
+		padding: $padding--large 0;
+	}
+}

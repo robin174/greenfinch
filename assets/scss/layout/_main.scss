@@ -36,21 +36,6 @@
 	padding: $padding--large 0;
 }
 
-.org--content-newsletter {
-	margin-top: $margin--large;
-	padding: $padding--large 0;
-	background-color: darken($color--primary, 3%);
-	text-align: center;
-	color: $color--white;
-	& h3 {
-		color: $color--white;
-		margin-top: 0;
-		margin-bottom: 5px;
-	}
-	& p {
-
-	}
-}
 
 
 // Molecules
